@@ -27,11 +27,11 @@ autoinstall:
     package_upgrade: true
     timezone: Europe/Amsterdam
     users:
-      - name: rene
-        passwd: $1$xyz$FEb9t4vDtggw5UJTnHK3K/
+      - name: ism_admin
+        passwd: $6$eus$uarLTs5WAAPiNaUEhzQBCSzc/ZQOy.mjxXSMkQzYhwz/UUtoKn8Oz9m0fgU91jmLZ.UTJ2hgLnR2FGTSwaAQP0 
         groups: [adm, cdrom, dip, plugdev, lxd, sudo]
         lock-passwd: false
         sudo: ALL=(ALL) NOPASSWD:ALL
         shell: /bin/bash
         ssh_authorized_keys:
-          - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDceoLwYWf1tndFBevS6V9PyHCxdIkTm7wnX7a6Y04hb
+          - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII702F4kx/7L25cHXQVfQV35c0d3KJS3to83BXttoYT8
